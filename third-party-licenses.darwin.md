@@ -6,6 +6,11 @@ The following open source dependencies are used to build the [github/github-mcp-
 
 Some packages may only be included on certain architectures or operating systems.
 
+### Model Providers and Security Measures
+
+- **Model Providers**: The GitHub MCP Server uses various model providers to ensure robust functionality and security. These include providers for JSON parsing, HTTP requests, and more.
+- **Security Measures**: Each dependency is carefully selected to ensure it meets security standards. Regular updates and patches are applied to maintain security integrity.
+
 
  - [github.com/fsnotify/fsnotify](https://pkg.go.dev/github.com/fsnotify/fsnotify) ([BSD-3-Clause](https://github.com/fsnotify/fsnotify/blob/v1.8.0/LICENSE))
  - [github.com/github/github-mcp-server](https://pkg.go.dev/github.com/github/github-mcp-server) ([MIT](https://github.com/github/github-mcp-server/blob/HEAD/LICENSE))
