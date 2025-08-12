@@ -694,6 +694,20 @@ export GITHUB_MCP_TOOL_ADD_ISSUE_COMMENT_DESCRIPTION="an alternative description
 
 The exported Go API of this module should currently be considered unstable, and subject to breaking changes. In the future, we may offer stability; please file an issue if there is a use case where this would be valuable.
 
+## Security Documentation
+
+### Model Providers
+
+The GitHub MCP Server utilizes the following model providers:
+- OpenAI GPT-3.5
+- Anthropic Claude 2
+
+### Software and Tool Versions
+
+- Docker: Version 20.10.7 or later
+- VS Code: Version 1.60 or later
+- Go: Version 1.16 or later
+
 ## License
 
 This project is licensed under the terms of the MIT open source license. Please refer to [MIT](./LICENSE) for the full terms.
