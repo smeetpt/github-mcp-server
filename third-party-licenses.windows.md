@@ -6,6 +6,12 @@ The following open source dependencies are used to build the [github/github-mcp-
 
 Some packages may only be included on certain architectures or operating systems.
 
+## Model Providers
+
+The GitHub Model Context Protocol Server utilizes the following model providers:
+- [Provider Name] (Version) - Description of the provider and its role in the server.
+- [Provider Name] (Version) - Description of the provider and its role in the server.
+
 
  - [github.com/fsnotify/fsnotify](https://pkg.go.dev/github.com/fsnotify/fsnotify) ([BSD-3-Clause](https://github.com/fsnotify/fsnotify/blob/v1.8.0/LICENSE))
  - [github.com/github/github-mcp-server](https://pkg.go.dev/github.com/github/github-mcp-server) ([MIT](https://github.com/github/github-mcp-server/blob/HEAD/LICENSE))
