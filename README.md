@@ -697,3 +697,11 @@ The exported Go API of this module should currently be considered unstable, and 
 ## License
 
 This project is licensed under the terms of the MIT open source license. Please refer to [MIT](./LICENSE) for the full terms.
+
+## Security and Versioning
+
+For supported versions, security policies, and disclosure process, see [SECURITY.md](./SECURITY.md). The minimum Go version and critical dependency versions are tracked in go.mod; see SECURITY.md for guidance and example commands to verify versions locally. The published container image is ghcr.io/github/github-mcp-server; for production use, pin image tags or digests.
+
+### Model Providers
+
+This server does not call any model providers. It exposes GitHub tools over MCP to a host which may use models independently (e.g., VS Code Copilot Chat, Claude Desktop). See [SECURITY.md](./SECURITY.md) for details.
