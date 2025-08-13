@@ -45,6 +45,7 @@ Available Commands:
   create_branch         Create a new branch in a GitHub repository
   create_issue          Create a new issue in a GitHub repository
   create_or_update_file Create or update a single file in a GitHub repository
+  create_and_update_file Create and update a file in a GitHub repository
   create_pull_request   Create a new pull request in a GitHub repository
   create_repository     Create a new GitHub repository in your account
   fork_repository       Fork a GitHub repository to your account or specified organization
