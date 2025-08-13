@@ -499,6 +499,11 @@ export GITHUB_MCP_TOOL_ADD_ISSUE_COMMENT_DESCRIPTION="an alternative description
   - `branch`: Branch name (string, optional)
   - `sha`: File SHA if updating (string, optional)
 
+- **create_and_update_file** - Create a file if it doesn't exist, or update it if it does, in a single call
+  - `owner`: Repository owner (string, required)
+  - `repo`: Repository name (string, required)
+  - `path`: File path (string, required)
+
 - **list_branches** - List branches in a GitHub repository
   - `owner`: Repository owner (string, required)
   - `repo`: Repository name (string, required)
